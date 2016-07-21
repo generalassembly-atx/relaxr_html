@@ -6,3 +6,6 @@ A hot, new NY Tech Startup, **Relaxr**, has approached you to help them develop 
 
 For tonight's homework, you need to take a look at the above design comp and "mark it up." In the `index.html` file in the starter code, use semantic HTML to enclose all the content and images. Don't worry about styling, fonts or positioning for tonight's assignment. The images have been provided in  `starter_code/images`, so make sure to include their correct paths.
 
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
