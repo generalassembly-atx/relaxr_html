@@ -1,0 +1,30 @@
+html{
+  font-family: Arial,Helvetica,sans-serif;
+}
+header{
+  background-image:url("../images/header_bg.jpg");
+  height:450px;
+  font-family: Arial;
+}
+footer{
+  background-color:black;
+  color:white;
+}
+.wrapper, .options{
+  background-color:lightgrey;
+}
+.options, footer{
+  padding:25px;
+}
+
+
+.logo{
+  font-size: 3em;
+}
+
+.quote{
+  height:250px;
+  background-image: url("../images/testimonial_bg.jpg");
+  color:white;
+  text-align: center;
+}
