@@ -1,11 +1,24 @@
-# Relaxr Landing Page: Part 1
+# README
 
-A hot, new NY Tech Startup, **Relaxr**, has approached you to help them develop a new landing page for their company. 
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-![Relaxr Landing Page](starter_code/images/relaxr_landing.jpg)
+Things you may want to cover:
 
-For tonight's homework, you need to take a look at the above design comp and "mark it up." In the `index.html` file in the starter code, use semantic HTML to enclose all the content and images. Don't worry about styling, fonts or positioning for tonight's assignment. The images have been provided in  `starter_code/images`, so make sure to include their correct paths.
+* Ruby version
 
-## Licensing
-All content is licensed under a CC­BY­NC­SA 4.0 license.
-All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
