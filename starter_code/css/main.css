@@ -1,0 +1,37 @@
+body {
+  background-color: #000;
+}
+header {
+  background: img src="images/header_bg.jpg";
+  font-family: Helvetica, Arial, sans-serif;
+}
+main {
+  color: #99ccff;
+}
+footer {
+  text-align: center;
+}
+footer h1 {
+  color: yellow
+}
+.testimonial {
+  font-style: italic;
+}
+.author {
+  font-weight: bold;
+}
+.author span {
+  font-style: italic;
+}
+.btn-get-now {
+
+}
+.sign-up {
+
+}
+.btn-sign-up {
+
+}
+.social-media {
+
+}
