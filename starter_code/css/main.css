@@ -1,186 +1,126 @@
-/* BEGIN RESET FILE */
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  margin: 0 auto;
+  font-family: helvetica;
 }
 
-/* CUSTOM STYLES */
-body {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
+header{
+  background-image: url("../images/header_bg.jpg");
+  height: 900px;
+  background-size: cover;
+  overflow: auto;
 }
 h1 {
   color: white;
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 48px;
-  text-transform: uppercase;
-  padding: 20px 0;
+  margin: 50px 0 0 90px;
+  font-weight: bold;
+  font-size: 50px;
 }
 h2 {
   color: white;
-  font-family: 'Roboto Slab', serif;
-  font-size: 30px;
-  text-transform: uppercase;
-  padding-bottom: 20px;
+  text-align:center;
+  font-family:arial;
+  margin-top: 170px;
+  font-size: 48px;
+}
+#button1 {
+  background-color: yellow;
+  position: relative;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 50px;
+  height: 50px;
+  width: 200px;
+  border-radius: 7px;
+  color: #100591;
+  font-size: 25px;
+  font-weight: bold;
 }
 h3 {
-  color: #00a84f;
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 30px;
-  padding: 10px;
-}
-h4 {
-  font-size: 14px;
-  font-weight: 600;
-  padding-bottom: 10px;
-}
-
-h4 a {
-    text-decoration: none;
-    color: black;
-}
-h5 {
-  font-family: 'Fjalla One', sans-serif;
-  font-size: 25px;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding-bottom: 10px;
-}
-
-p {
-  font-size: 12px;
-  line-height: 2;
-}
-
-.orange-button {
-  background-color: #f37735;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 10px 40px;
-  border: none;
-  margin: 20px;
-}
-
-header {
-  background: #00a84f;
-  padding: 10px 0;
-  color: white;
-}
-.hero {
-  background-image: url("images/austin.jpg");
-  padding: 30px;
-  background-position: center;
-  background-size: cover;
-}
-
-section {
-  padding: 40px 0;
-}
-
-.teammate {
-  width: 60%;
-  margin: 20px auto;
-}
-
-.teammate img, .text {
-  display: inline-block;
-}
-
-.teammate img {
-  width: 20%;
-  margin-right: 20px;
-}
-
-.text {
-  width: 65%;
-  text-align: left;
-  vertical-align: top;
-}
-
-.column {
-  display: inline-block;
-  width: 20%;
-  margin: 10px;
-  text-align: left;
-}
-
-.column img {
-  width: 100%;
-  padding: 15px 0;
-}
-
-.tidbit {
-  background-color: #e8e8e7;
-}
-
-form {
-  width: 30%;
-  margin: 0 auto;
-  padding-top: 10px;
-}
-
-input, textarea {
   display: block;
-  width: 90%;
-  border: 2px solid #00a84f;
-  margin: 10px;
-  padding: 20px;
+  color: #100591;
+  font-size: 45px;
+  margin: 60px 0 0 100px;
+}
+p {
+  justify-content: left;
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: 100;
+}
+main {
+  background-color: rgba(232,232,238,.8);
+  overflow: auto;
+  color: grey;
+}
+ul {
+  margin-left: 130px;
+  color:grey;
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+li:before {
+    content: "• ";
+    color: #100591;
+
+}
+ul li {
+  padding: 5px;
+}
+.quote {
+  background-image: url("../images/testimonial_bg.jpg");
+  background-size:cover;
+  display: block;
+  overflow: auto;
+}
+blockquote {
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin: 100px 0 100px 0;
+  font-size: 25px;
+}
+.signup {
+  background color:rgba(232,232,238,.8);
+  background-size: cover;
+  overflow: auto;
+}
+#button2 {
+  background-color: #100591;
+  color: white;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 200px;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px auto 15px auto;
+}
+.bottom {
+  background-color: #100591;
+  background-size:cover;
+  display: block;
+  overflow: auto;
+  color: white;
+}
+h4, h6 {
+  display: block;
+  text-align: center;
+  font-size: 38px;
+}
+h6 {
+  font-size: 11px;
+}
+#facebook, #twitter {
+  display: inline-block;
+}
+#facebook {
+  background-image: url("../images/facebook.png");
 }
 
-footer {
-  background-color: #000;
-  width: 100%;
-}
 
-.social img {
-  height: 40px;
-  padding: 10px 40px;
-  filter: brightness(0) invert();
+}
 }
